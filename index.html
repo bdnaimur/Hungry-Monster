@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Hungry Monster</title>
+</head>
+
+<body>
+    <section class="background-color">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <div class="container mt-4">
+                <a class="navbar-brand" href="#">
+                    <img class="logo border" src="logo/logo.jpg" alt="">
+                </a>
+                <button class="navbar-toggler mt-4 border" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse margin" id="navbarNav">
+                    <ul class="navbar-nav m-auto fw-bold">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shoe">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <input id="search" type="text" class="form-control">
+            </div>
+            <div class="col-md-4"><button onclick="searchButton()" class="btn btn-primary">Search</button></div>
+        </div>
+    </section>
+    <div id="detailShow"></div>
+    <div id="meals"></div>
+    <div id="missMatch"></div>
+    <script src="app.js">
+    </script>
+</body>
+
+</html>

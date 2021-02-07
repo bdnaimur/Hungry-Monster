@@ -1,0 +1,38 @@
+#meals{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.meal{
+    margin: 10px auto;
+    text-align: center;
+    width: 200px;
+    border-radius: 10px 10px 5px 5px;
+    background-color: rgb(240, 240, 240);
+    box-sizing: border-box;
+}
+.mealName{
+    padding: 5px;
+}
+.meal img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.logo{
+    width: 100px;
+    border-radius: 5px;
+}
+#detailShow{
+    width: 500px;
+    margin: 50px auto;
+}
+#detailShow img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+#missMatch{
+    font-size: 50px;
+    color: red;
+    text-align: center;
+}
